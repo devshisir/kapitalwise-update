@@ -1,0 +1,132 @@
+#header__top{
+    background-color: #fff;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.16);
+    position: relative;
+    z-index: 9999999;
+    .menu__box{
+        ul{
+            li{
+                display: inline-block;
+                margin-left: 15px;
+                a{
+                    font-weight: 500;
+                    font-size: 16px;
+                    color: $titleColor;
+                    display: block;
+                    padding: 30px 0px;
+                    margin-left: 20px;
+                }
+                &:hover{
+                    > a{
+                        color: $brand;
+                    }
+                }
+            }
+            .active{
+                a{
+                    color: $brand;
+                }
+            }
+            .btn__touch{
+                margin-left: 30px;
+                a{
+                    background-color: $brand;
+                    color: #fff;
+                    border-radius: 5px;
+                    padding: 15px 25px;
+                    &:hover{
+                        background-color: $brand-hover;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+        .dropdown{
+            .menu__drop__btn{
+                background-color: transparent;
+                border: none;
+                outline: none;
+                font-weight: 500;
+                font-size: 16px;
+                color: $titleColor;
+                display: flex;
+                align-items: center;
+                padding: 30px 15px;
+                margin-right: -20px;
+                &:hover{
+                    color: $brand;
+                }
+                .drop-icon{
+                    margin-left: 8px;
+                }
+                i{
+                    transition: 0.4s;
+                }
+            }
+            .menu__drop__btn[aria-expanded="true"]{
+                color: $brand;
+                .drop-icon{
+                    i{
+                        transform: rotate(180deg);
+                    }
+                }
+            }
+            .dropdown-menu{
+                max-width: 650px !important;
+                width: 650px;
+                box-shadow : 0px 10px 15px rgba(0, 0, 0, 0.16);
+                border: none !important;
+                padding: 40px 50px 17px 60px;
+                background-color: #fff !important;
+                .dropdown__title{
+                    h4{
+                        font-weight: 500;
+                        font-size: 20px;
+                        color: #252436;
+                    }
+                }
+                .mega__menu__wrapper{
+                    margin-top: 45px;
+                    .mega__menu__item{
+                        margin-bottom: 30px;
+                        .icon{
+                            max-width: 55px;
+                            min-width: 30px !important;
+                        }
+                        .content{
+                            h4{
+                                font-weight: 500;
+                                font-size: 18px;
+                                color: #252436;
+                            }
+                            p{
+                                margin: 10px 0px;
+                                color: #252436;
+                                font-size: 15px;
+                            }
+                            a{
+                                padding: 0px;
+                                margin: 0px;
+                                color: $brand;
+                                i{
+                                    margin-left: 10px;
+                                }
+                                &:hover{
+                                    text-decoration: underline;
+                                    color: $brand-hover;
+                                }
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            .dropdown-menu-center {
+                right: auto !important;
+                left: 50% !important;
+                transform: translate(-50%, 85px) !important;
+            }
+
+        }
+    }
+}

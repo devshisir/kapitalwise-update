@@ -1,0 +1,46 @@
+// font cdn import
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import 'import/reset.scss';
+@import 'import/_color.scss';
+
+// import global component
+@import './component/_global';
+@import './component/_header';
+@import './component/_rangeSlider';
+
+// import page scss file
+@import './page/_home';
+@import './page/_pricing';
+@import './page/_requestDemo';
+@import './page/_blog';
+
+// start responsive css part
+@import './responsive/_laptop';
+@import './responsive/_largeTab';
+@import './responsive/_tablet';
+@import './responsive/_phoneLandscape';
+@import './responsive/_phone';
+@import './responsive/_max991px';
+@import './responsive/_max767px';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1440" height="450" viewBox="0 0 1440 450">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2435" data-name="Rectangle 2435" width="1440" height="450" transform="translate(0 80)" fill="#232958"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_20" data-name="Mask Group 20" transform="translate(0 -80)" clip-path="url(#clip-path)">
+    <g id="Group_911" data-name="Group 911" transform="translate(-5631 -3005.999)">
+      <rect id="Rectangle_2414" data-name="Rectangle 2414" width="238.684" height="118.135" rx="13" transform="translate(6236.658 3441.865)" fill="#fff"/>
+      <text id="Create_Notes" data-name="Create Notes" transform="translate(6293.234 3467.901)" fill="#2c40ce" font-size="14" font-family="DMSans-Medium, DM Sans" font-weight="500"><tspan x="-43.582" y="0">Create Notes</tspan></text>
+      <text id="Add_text" data-name="Add text" transform="translate(6272.234 3495.901)" fill="#484848" font-size="8" font-family="DMSans-Regular, DM Sans" opacity="0.55"><tspan x="-15.848" y="0">Add text</tspan></text>
+      <g id="Rectangle_2415" data-name="Rectangle 2415" transform="translate(6249.234 3477.901)" fill="none" stroke="#777" stroke-width="0.5">
+        <rect width="215.266" height="61.232" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="214.766" height="60.732" rx="2.75" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
