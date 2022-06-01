@@ -552,114 +552,106 @@ p {
           #footer .footer_item_wrapper .social_link ul li a:hover {
             color: #2C40CE; }
 
-.pricing__banner__slider__active .slider__item img {
-  width: auto !important; }
-
-.pricing__banner__slider__active .slider__item .slider__container {
-  position: relative;
-  z-index: 1;
-  min-height: 450px;
-  padding-top: 50px; }
-
-.pricing__banner__slider__active .slider__item .shape__box1 {
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-  z-index: 1; }
-  .pricing__banner__slider__active .slider__item .shape__box1 .blur__01 {
+.pricing__banner__slider__active .slider__item {
+  overflow-y: hidden; }
+  .pricing__banner__slider__active .slider__item img {
+    width: auto !important; }
+  .pricing__banner__slider__active .slider__item .slider__container {
+    position: relative;
+    z-index: 1;
+    min-height: 450px;
+    padding-top: 50px; }
+  .pricing__banner__slider__active .slider__item .shape__box1 {
     position: absolute;
-    top: 100px;
-    left: 130px;
-    z-index: -1; }
-
-.pricing__banner__slider__active .slider__item .shape__box2 {
-  position: absolute;
-  bottom: 0;
-  left: -67px;
-  z-index: 1; }
-  .pricing__banner__slider__active .slider__item .shape__box2 .blur__02 {
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; }
+    .pricing__banner__slider__active .slider__item .shape__box1 .blur__01 {
+      position: absolute;
+      top: 100px;
+      left: 130px;
+      z-index: -1; }
+  .pricing__banner__slider__active .slider__item .shape__box2 {
     position: absolute;
-    bottom: -90px;
-    left: 47%;
-    z-index: -1; }
-
-.pricing__banner__slider__active .slider__item .shape__box3 {
-  position: absolute;
-  bottom: 0;
-  left: -67px;
-  z-index: 1; }
-  .pricing__banner__slider__active .slider__item .shape__box3 .blur__03 {
+    bottom: 0;
+    left: -67px;
+    z-index: 1; }
+    .pricing__banner__slider__active .slider__item .shape__box2 .blur__02 {
+      position: absolute;
+      bottom: -90px;
+      left: 47%;
+      z-index: -1; }
+  .pricing__banner__slider__active .slider__item .shape__box3 {
     position: absolute;
-    bottom: 48px;
-    right: 137px;
-    z-index: -1; }
-
-.pricing__banner__slider__active .slider__item .shape__box4 {
-  position: absolute;
-  top: 67px;
-  left: -67px;
-  z-index: 1; }
-
-.pricing__banner__slider__active .slider__item .shape__box5 {
-  position: absolute;
-  top: 107px;
-  right: -67px;
-  z-index: 1; }
-  .pricing__banner__slider__active .slider__item .shape__box5 .blur__05 {
+    bottom: 0;
+    left: -67px;
+    z-index: 1; }
+    .pricing__banner__slider__active .slider__item .shape__box3 .blur__03 {
+      position: absolute;
+      bottom: 48px;
+      right: 137px;
+      z-index: -1; }
+  .pricing__banner__slider__active .slider__item .shape__box4 {
     position: absolute;
-    bottom: 48px;
-    right: -137px;
-    z-index: -1; }
-
-.pricing__banner__slider__active .slider__item .shape__box6 {
-  position: absolute;
-  top: 107px;
-  left: -67px;
-  z-index: 1; }
-
-.pricing__banner__slider__active .slider__item .shape__box7 {
-  position: absolute;
-  bottom: 07px;
-  right: -67px;
-  z-index: 1; }
-
-.pricing__banner__slider__active .slider__item .shape__box__8 {
-  position: absolute;
-  bottom: -60px;
-  left: 50%;
-  transform: translateX(-50%);
-  text-align: center;
-  display: flex;
-  justify-content: center; }
-
-.pricing__banner__slider__active .slider__item .content {
-  position: relative;
-  z-index: 99999999; }
-  .pricing__banner__slider__active .slider__item .content .tag__line {
-    background-color: #F8B400;
-    border: none;
-    font-weight: 500;
-    font-size: 17px;
-    color: #fff;
-    padding: 10px 30px;
-    border-radius: 7px; }
-  .pricing__banner__slider__active .slider__item .content h1 {
-    margin-top: 50px;
-    font-weight: 700;
-    font-size: 38px;
-    color: #fff; }
-  .pricing__banner__slider__active .slider__item .content h5 {
-    max-width: 704px;
-    margin: 0 auto;
-    margin-top: 20px;
-    color: #fff;
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 40px; }
-  .pricing__banner__slider__active .slider__item .content .full__content {
-    width: 100% !important;
-    max-width: 100%; }
+    top: 67px;
+    left: -67px;
+    z-index: 1; }
+  .pricing__banner__slider__active .slider__item .shape__box5 {
+    position: absolute;
+    top: 107px;
+    right: -67px;
+    z-index: 1; }
+    .pricing__banner__slider__active .slider__item .shape__box5 .blur__05 {
+      position: absolute;
+      bottom: 48px;
+      right: -137px;
+      z-index: -1; }
+  .pricing__banner__slider__active .slider__item .shape__box6 {
+    position: absolute;
+    top: 107px;
+    left: -67px;
+    z-index: 1; }
+  .pricing__banner__slider__active .slider__item .shape__box7 {
+    position: absolute;
+    bottom: 07px;
+    right: -67px;
+    z-index: 1; }
+  .pricing__banner__slider__active .slider__item .shape__box__8 {
+    position: absolute;
+    bottom: -60px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    display: flex;
+    justify-content: center; }
+  .pricing__banner__slider__active .slider__item .content {
+    position: relative;
+    z-index: 99999999; }
+    .pricing__banner__slider__active .slider__item .content .tag__line {
+      background-color: #F8B400;
+      border: none;
+      font-weight: 500;
+      font-size: 17px;
+      color: #fff;
+      padding: 10px 30px;
+      border-radius: 7px; }
+    .pricing__banner__slider__active .slider__item .content h1 {
+      margin-top: 50px;
+      font-weight: 700;
+      font-size: 38px;
+      color: #fff; }
+    .pricing__banner__slider__active .slider__item .content h5 {
+      max-width: 704px;
+      margin: 0 auto;
+      margin-top: 20px;
+      color: #fff;
+      font-weight: 400;
+      font-size: 24px;
+      line-height: 40px; }
+    .pricing__banner__slider__active .slider__item .content .full__content {
+      width: 100% !important;
+      max-width: 100%; }
 
 #PricingMain {
   padding: 100px 0px;

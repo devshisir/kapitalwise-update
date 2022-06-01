@@ -21,28 +21,28 @@ $(document).ready(function () {
     })
 
     // pricing__banner__slider__active
-    $('.pricing__banner__slider__active').owlCarousel({
-        loop: true,
-        margin: 0,
-        nav: false,
-        dots: false,
-        autoplay: true,
-        autoplayTimeout: 7000,
-        // smartSpeed: 1000,
-        animateIn: 'fadeIn',
-        animateOut: 'fadeOut',
-        responsive: {
-            0: {
-                items: 1
-            },
-            600: {
-                items: 1
-            },
-            1000: {
-                items: 1
-            }
-        }
-    })
+    // $('.pricing__banner__slider__active').owlCarousel({
+    //     loop: true,
+    //     margin: 0,
+    //     nav: false,
+    //     dots: false,
+    //     autoplay: true,
+    //     autoplayTimeout: 7000,
+    //     // smartSpeed: 1000,
+    //     animateIn: 'fadeIn',
+    //     animateOut: 'fadeOut',
+    //     responsive: {
+    //         0: {
+    //             items: 1
+    //         },
+    //         600: {
+    //             items: 1
+    //         },
+    //         1000: {
+    //             items: 1
+    //         }
+    //     }
+    // })
 
     // activate input range slider
     const slider = document.querySelector('.slider');

@@ -1,6 +1,7 @@
 // pricing slider
 .pricing__banner__slider__active{
     .slider__item{
+        overflow-y: hidden;
         img{
             width: auto !important;
         }
