@@ -23,14 +23,14 @@
    <header id="header__top">
       <div class="container">
          <div class="row align-items-center">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4 col-md-3">
                <div class="logo__box">
                   <a href="index.html">
-                     <img class="img-fluid" src="./../asset/img/logo.png" alt="">
+                     <img class="img-fluid" src="../asset/img/logo.png" alt="">
                   </a>
                </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-xl-8 col-lg-8 col-md-9">
                <div class="menu__box">
                   <nav class="text-end">
                      <ul>
@@ -45,10 +45,10 @@
                                  </div>
                                  <div class="mega__menu__wrapper">
                                     <div class="row">
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
-                                                <img class="img-fluid" src="./../asset/img/icons/signalwise.png" alt="">
+                                                <img class="img-fluid" src="../asset/img/icons/signalwise.png" alt="">
                                              </div>
                                              <div class="content">
                                                 <h4>Signalwise</h4>
@@ -57,10 +57,10 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
-                                                <img class="img-fluid" src="./../asset/img/icons/marketingwise.png" alt="">
+                                                <img class="img-fluid" src="../asset/img/icons/marketingwise.png" alt="">
                                              </div>
                                              <div class="content">
                                                 <h4>Marketwise</h4>
@@ -69,10 +69,10 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
-                                                <img class="img-fluid" src="./../asset/img/icons/contentwise.png" alt="">
+                                                <img class="img-fluid" src="../asset/img/icons/contentwise.png" alt="">
                                              </div>
                                              <div class="content">
                                                 <h4>Contentwise</h4>
@@ -81,10 +81,10 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
-                                                <img class="img-fluid" src="./../asset/img/icons/saleswise.png" alt="">
+                                                <img class="img-fluid" src="../asset/img/icons/saleswise.png" alt="">
                                              </div>
                                              <div class="content">
                                                 <h4>Saleswise</h4>
@@ -98,7 +98,7 @@
                               </div>
                            </div>
                         </li>
-                        <li>
+                        <li class="active">
                            <a href="#">Solutions</a>
                         </li>
                         <li>
@@ -115,6 +115,85 @@
       </div>
    </header>
    <!-- ========== End header area ========== -->
+      <!-- ========== Start mobile menu area ========== -->
+      <div id="mobileMenu">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-5">
+                  <div class="logo__box">
+                     <a href="../index.html">
+                        <img class="img-fluid" src="../asset/img/logo.png" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="col-7">
+                  <div class="mobileMenuToggle text-end">
+                     <button type="button">
+                        <i class="fa-regular fa-bars"></i>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ========== End mobile menu area ========== -->
+      <!-- ========== Start mobile menu content ========== -->
+      <div id="mobileMenuContent">
+         <button type="button" class="menuClose">
+            <i class="fa-solid fa-circle-xmark"></i>
+         </button>
+         <div class="MenuContent">
+            <nav>
+               <ul>
+                  <li>
+                     <a class="subMenuLink" data-bs-toggle="collapse" href="#subMenuMobile" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Products
+                     </a>
+                     <div class="collapse" id="subMenuMobile">
+                        <div class="subMenuWrapper">
+                           <ul>
+                              <li>
+                                 <a href="#">
+                                    Signalwise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                    Marketwise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                    Contentwise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                    Saleswise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                      </div>
+                  </li>
+                  <li>
+                     <a href="#">Solutions</a>
+                  </li>
+                  <li>
+                     <a href="#">Blog</a>
+                  </li>
+               </ul>
+               <div class="spMenu">
+                  <a href="#">Get in touch</a>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- ========== End mobile menu content ========== -->
    <!-- ========== Start Pricing baner area ========== -->
    <section id="pricingBanner">
       <div class="pricing__banner__slider__active">
@@ -160,7 +239,7 @@
                   </div>
                   <div class="pricing__box">
                      <div class="row">
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
                            <div class="price__item">
                               <div class="top__info text-center">
                                  <div class="packageName">Free Trial</div>
@@ -253,7 +332,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
                            <div class="price__item">
                               <div class="top__info text-center">
                                  <div class="packageName">Essential</div>
@@ -373,7 +452,7 @@
                               </div>
                            </div>
                         </div>
-                        <div class="col-xl-4">
+                        <div class="col-xl-4 col-lg-6 col-md-6">
                            <div class="price__item">
                               <div class="top__info text-center">
                                  <div class="packageName">Enterprise</div>
@@ -410,6 +489,12 @@
                                           <img src="../asset/img/icons/check.png" alt="">
                                        </span>
                                        <span>CX Automation</span>
+                                    </li>
+                                    <li>
+                                       <span>
+                                          <img src="../asset/img/icons/check.png" alt="">
+                                       </span>
+                                       <span>Unified Single Customer View</span>
                                     </li>
                                  </ul>
                               </div>
@@ -497,6 +582,24 @@
    <script src="../asset/js/plugin/owl.carousel.min.js"></script>
    <script src="./../asset/js/plugin/calendar.min.js"></script>
    <script src="../asset/js/custom.js"></script>
+   <script>
+      // activate input range slider
+      const slider = document.querySelector('.slider');
+      const sliderThumb = document.querySelector('.slider__thumb');
+      const TolTipSlider = document.querySelector('.toltip__range');
+      const SliderProgress = document.querySelector('.rangeProgress');
+      const toltipValue = document.querySelector('.toltipValue');
+
+      slider.addEventListener('input',customRangeSlider);
+      function customRangeSlider(){
+         const valueMain = (slider.value);
+         const value = (slider.value / slider.max) * 100 + '%';
+         toltipValue.innerHTML = valueMain + 'K';
+         SliderProgress.style.width = value;
+         sliderThumb.style.cssText = `left: ${value}; transform: translate(${value},-50%);`;
+      }
+      customRangeSlider();
+   </script>
 </body>
 
 </html>

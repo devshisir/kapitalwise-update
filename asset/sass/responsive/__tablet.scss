@@ -1,3 +1,105 @@
 @media (min-width: 768px) and (max-width: 991px) {
-    
+    #header__top .menu__box .dropdown .dropdown-menu-center {
+        transform: translate(-36%, 85px) !important;
+    }
+    #hero__baner{
+        padding-top: 20px;
+        .banner__image{
+           margin-top: 10px;
+        }
+        .content{
+            text-align: center;
+            padding-top: 30px;
+            h1{
+                width: auto;
+                font-size: 37px;
+                line-height: 48px;
+            }
+            h5{
+                font-size: 17px;
+                line-height: 26px;
+            }
+            a{
+                font-size: 15px;
+            }
+            p{
+                margin: 0 auto;
+                margin-top: 20px;
+            }
+        }
+    }
+    #about__us .brand__area {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+        .brand__item{
+            width: 30%;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+    }
+    .title-xl {
+        font-size: 22px;
+    }
+    #serviceFeatures {
+        padding: 28px 0px 20px 0px;
+    }
+    #serviceFeatures .main__wrapper .item__box{
+        margin-bottom: 40px;
+    }
+    #quoteBox .quoteBoxContent{
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+    #quoteBox .quoteBoxContent h3 {
+        font-size: 20px;
+    }
+    #quoteBox .quoteBoxContent p {
+        font-size: 14px;
+    }
+    #testmonial .slider__wrapper {
+        padding-top: 40px;
+    }
+    #testmonial .slider__wrapper .slider__item .partner__image img {
+        width: auto !important;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    #howToWork{
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+    #howToWork .main__wrapper .single__item{
+        margin-bottom: 40px;
+    }
+    .row.requestDemoRow {
+        flex-direction: column-reverse;
+    }
+    #requestDemo .quoteBg {
+        display: none;
+    }
+    #requestDemo .datePickerForm {
+        padding: 50px 0px;
+    }
+    #requestDemo .datePickerForm .datepickerBox {
+        width: 70%;
+    }
+    #requestDemo .contactFormArea .form__box {
+        width: 100%;
+    }
+    .pricing__banner__slider__active .slider__item .slider__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+        padding: 40px 15px;
+    }
+    .pricing__banner__slider__active .slider__item .shape__box1,.pricing__banner__slider__active .slider__item .shape__box2,.pricing__banner__slider__active .slider__item .shape__box3,.pricing__banner__slider__active .slider__item .shape__box4,.pricing__banner__slider__active .slider__item .shape__box5,.pricing__banner__slider__active .slider__item .shape__box6,.pricing__banner__slider__active .slider__item .shape__box7,.pricing__banner__slider__active .slider__item .shape__box__8{
+        display: none !important;
+    }
+    .quoteBox2 .quoteBoxContainer{
+        padding: 40px !important;
+    }
+    #deploymentOptions .mainWrapper .itemBox{
+        margin-bottom: 30px;
+    }
 }

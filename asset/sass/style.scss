@@ -14,6 +14,9 @@
 @import './page/_requestDemo';
 @import './page/_blog';
 
+// import mobile menu scss file
+@import './component/_mobileMenu';
+
 // start responsive css part
 @import './responsive/_laptop';
 @import './responsive/_largeTab';

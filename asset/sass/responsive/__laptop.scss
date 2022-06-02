@@ -1,6 +1,43 @@
 @media (min-width: 1200px) and (max-width: 1260px) {
-    
+    #hero__baner{
+        padding-top: 50px;
+        padding-bottom: 100px;
+        .banner__image{
+            position: relative;
+            top: 100px;
+        }
+    }
+    #requestDemo .datePickerForm .datepickerBox {
+        width: 80%;
+        padding: 40px 20px;
+    }
+    #requestDemo .quoteBg {
+        z-index: -1;
+    }
+    #requestDemo .contactFormArea .form__box {
+        width: 100%;
+    }
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        right: auto !important;
+        left: 50% !important;
+        transform: translate(-50%, 85px) !important;
+        top: 0px;
+    }
+    #freeUnlimited02{
+        .rightContent {
+            img{
+                width: 100%;
+            }
+        }
+    }
 }
-@media (min-width: 1261px) and (max-width: 1487px) {
-    
+@media (min-width: 1200px) and (max-width: 5000px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        right: auto !important;
+        left: 50% !important;
+        transform: translate(-50%, 85px) !important;
+        top: 0px;
+    }
 }

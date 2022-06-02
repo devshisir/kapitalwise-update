@@ -150,6 +150,9 @@
                 border-color: $brand !important;
             }
         }
+        .price__item.active{
+            border-color: $brand !important;
+        }
         .top__title{
             p{
                 font-size: 18px;

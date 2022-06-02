@@ -1,3 +1,19 @@
 @media (max-width: 991px) {
-    
+    #blogFeatures .rightContent .featuresSingleItem {
+        margin-bottom: 20px;
+    }
+    #deploymentOptions .mainWrapper .itemBox {
+        width: 100%;
+        min-height: 350px;
+    }
+    #blogFeatures .leftContent{
+        margin-bottom: 30px;
+    }
+    #freeUnlimited02{
+        .rightContent {
+            img{
+                width: 100%;
+            }
+        }
+    }
 }

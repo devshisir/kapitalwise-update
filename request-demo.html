@@ -23,14 +23,14 @@
    <header id="header__top">
       <div class="container">
          <div class="row align-items-center">
-            <div class="col-xl-4">
+            <div class="col-xl-4 col-lg-4 col-md-3">
                <div class="logo__box">
                   <a href="index.html">
                      <img class="img-fluid" src="./asset/img/logo.png" alt="">
                   </a>
                </div>
             </div>
-            <div class="col-xl-8">
+            <div class="col-xl-8 col-lg-8 col-md-9">
                <div class="menu__box">
                   <nav class="text-end">
                      <ul>
@@ -45,7 +45,7 @@
                                  </div>
                                  <div class="mega__menu__wrapper">
                                     <div class="row">
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
                                                 <img class="img-fluid" src="./asset/img/icons/signalwise.png" alt="">
@@ -57,7 +57,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
                                                 <img class="img-fluid" src="./asset/img/icons/marketingwise.png" alt="">
@@ -69,7 +69,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
                                                 <img class="img-fluid" src="./asset/img/icons/contentwise.png" alt="">
@@ -81,7 +81,7 @@
                                              </div>
                                           </div>
                                        </div>
-                                       <div class="col-xl-6">
+                                       <div class="col-xl-6 col-lg-6">
                                           <div class="mega__menu__item d-flex">
                                              <div class="icon">
                                                 <img class="img-fluid" src="./asset/img/icons/saleswise.png" alt="">
@@ -115,12 +115,91 @@
       </div>
    </header>
    <!-- ========== End header area ========== -->
+      <!-- ========== Start mobile menu area ========== -->
+      <div id="mobileMenu">
+         <div class="container">
+            <div class="row align-items-center">
+               <div class="col-5">
+                  <div class="logo__box">
+                     <a href="index.html">
+                        <img class="img-fluid" src="./asset/img/logo.png" alt="">
+                     </a>
+                  </div>
+               </div>
+               <div class="col-7">
+                  <div class="mobileMenuToggle text-end">
+                     <button type="button">
+                        <i class="fa-regular fa-bars"></i>
+                     </button>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- ========== End mobile menu area ========== -->
+      <!-- ========== Start mobile menu content ========== -->
+      <div id="mobileMenuContent">
+         <button type="button" class="menuClose">
+            <i class="fa-solid fa-circle-xmark"></i>
+         </button>
+         <div class="MenuContent">
+            <nav>
+               <ul>
+                  <li>
+                     <a class="subMenuLink" data-bs-toggle="collapse" href="#subMenuMobile" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        Products
+                     </a>
+                     <div class="collapse" id="subMenuMobile">
+                        <div class="subMenuWrapper">
+                           <ul>
+                              <li>
+                                 <a href="#">
+                                    Signalwise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                    Marketwise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                    Contentwise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                              <li>
+                                 <a href="#">
+                                    Saleswise
+                                    <span><i class="fa-regular fa-arrow-right"></i></span>
+                                 </a>
+                              </li>
+                           </ul>
+                        </div>
+                      </div>
+                  </li>
+                  <li>
+                     <a href="#">Solutions</a>
+                  </li>
+                  <li>
+                     <a href="#">Blog</a>
+                  </li>
+               </ul>
+               <div class="spMenu">
+                  <a href="#">Get in touch</a>
+               </div>
+            </nav>
+         </div>
+      </div>
+      <!-- ========== End mobile menu content ========== -->
    <!-- ========== Start request demo main area ========== -->
    <section id="requestDemo">
       <img class="quoteBg" src="./asset/img/quote-bg.png" alt="">
       <div class="container">
-         <div class="row">
-            <div class="col-xl-5">
+         <div class="row requestDemoRow">
+            <div class="col-xl-5 col-lg-5">
                <div class="contactFormArea">
                   <div class="form__title">
                      <h3>Request Demo</h3>
@@ -144,7 +223,7 @@
                   </div>
                </div>
             </div>
-            <div class="col-xl-7">
+            <div class="col-xl-7 col-lg-7">
                <div class="datePickerForm">
                   <div class="datepickerBox">
                      <div class="topInfo text-center">

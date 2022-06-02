@@ -1,3 +1,79 @@
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+    .title-xl{
+        font-size: 26px;
+    }
+    #hero__baner{
+        padding-top: 30px;
+        padding-bottom: 100px;
+        .banner__image{
+            position: relative;
+            top: 100px;
+        }
+        .content{
+            h1{
+                width: auto;
+                font-size: 37px;
+                line-height: 48px;
+            }
+            h5{
+                font-size: 17px;
+                line-height: 26px;
+            }
+            a{
+                font-size: 15px;
+            }
+        }
+    }
+    #serviceFeatures{
+        padding-bottom: 50px;
+        .main__wrapper {
+            .item__box{
+                margin-bottom: 50px;
+            }
+        }
+    }
+    #howToWork{
+        padding-top: 0px;
+        .single__item {
+            h3{
+                font-size: 20px !important;
+            }
+            p{
+                font-size: 15px !important;
+            }
+        }
+    }
+    #requestDemo .datePickerForm .datepickerBox {
+        width: 80%;
+        padding: 40px 20px;
+    }
+    #requestDemo .quoteBg {
+        z-index: -1;
+    }
+    #requestDemo .contactFormArea .form__box {
+        width: 100%;
+    }
+    .pricing__banner__slider__active .slider__item .slider__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 0px;
+    }
+    .pricing__banner__slider__active .slider__item .shape__box1,.pricing__banner__slider__active .slider__item .shape__box2,.pricing__banner__slider__active .slider__item .shape__box3,.pricing__banner__slider__active .slider__item .shape__box4,.pricing__banner__slider__active .slider__item .shape__box5,.pricing__banner__slider__active .slider__item .shape__box6,.pricing__banner__slider__active .slider__item .shape__box7,.pricing__banner__slider__active .slider__item .shape__box__8{
+        display: none !important;
+    }
+    #blogFeatures .rightContent .featuresSingleItem {
+        margin-bottom: 20px;
+    }
+    #deploymentOptions .mainWrapper .itemBox {
+        width: 100%;
+        min-height: 350px;
+    }
+    #freeUnlimited02{
+        .rightContent {
+            img{
+                width: 100%;
+            }
+        }
+    }
 }
