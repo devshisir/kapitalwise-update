@@ -8,6 +8,31 @@ $(document).ready(function () {
         $('#mobileMenuContent').toggleClass('toggle');
     })
 
+    // brand slider active
+    $('.brand__area').owlCarousel({
+        loop: true,
+        margin: 0,
+        nav: false,
+        autoplay: true,
+        smartSpeed: 1000,
+        responsive: {
+            0: {
+                items: 2
+            },
+            576: {
+                items: 3
+            },
+            768: {
+                items: 4
+            },
+            992: {
+                items: 5
+            },
+            1200: {
+                items: 5
+            }
+        }
+    })
 
     // testmonial slider active
     $('.testmonial__slider__active').owlCarousel({

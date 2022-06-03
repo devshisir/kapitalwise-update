@@ -29,15 +29,8 @@
             }
         }
     }
-    #about__us .brand__area {
-        flex-wrap: wrap;
-        justify-content: flex-start;
+    #about__us .brand__area{
         margin-top: 30px;
-        .brand__item{
-            width: 30%;
-            text-align: center;
-            margin-bottom: 30px;
-        }
     }
     .title-xl {
         font-size: 18px;
@@ -244,5 +237,9 @@
     }
     #freeUnlimited02{
         padding-top: 50px;
+    }
+    .brand__area .owl-dots {
+        text-align: center;
+        margin-top: 0px !important;
     }
 }

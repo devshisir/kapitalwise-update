@@ -108,13 +108,14 @@
                                 padding: 0px;
                                 margin: 0px;
                                 color: $brand;
-                                i{
-                                    margin-left: 10px;
-                                }
                                 &:hover{
                                     text-decoration: underline;
                                     color: $brand-hover;
                                 }
+                            }
+                            i{
+                                margin-left: 10px;
+                                color: $brand-hover;
                             }
                         }
                         

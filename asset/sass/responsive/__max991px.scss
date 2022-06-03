@@ -16,4 +16,22 @@
             }
         }
     }
+    // brand slider dots
+    .brand__area {
+        .owl-dots{
+            text-align: center;
+            margin-top: 20px;
+            .owl-dot{
+                height: 15px;
+                width: 15px;
+                background-color: #f8b60069;
+                margin: 0px 10px;
+                border-radius: 50%;
+                transition: 0.4s;
+            }
+            .active{
+                background-color: #F8B400;
+            }
+        }
+    }
 }

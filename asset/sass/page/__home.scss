@@ -56,9 +56,30 @@
     background-color: #fff;
     .brand__area{
         margin-top: 60px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+        .brand__item{
+            text-align: center;
+            display: flex;
+            align-items: center;
+            min-height: 100px;
+            flex: 1;
+            min-width: 138px;
+            a{
+                display: block;
+                width: 100%;
+            }
+            img{
+                width: auto !important;
+                opacity: 0.8;
+                transition: 0.5s;
+                margin: 0 auto;
+                display: table;
+            }
+            &:hover{
+                img{
+                    opacity: 1;
+                }
+            }
+        }
     }
     .bottom__about{
         margin-top: 80px;
