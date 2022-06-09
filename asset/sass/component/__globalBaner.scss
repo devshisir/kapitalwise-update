@@ -1,0 +1,198 @@
+#globalBaner{
+    padding-top: 100px;
+    overflow: hidden;
+    .leftImage{
+        position: relative;
+        top: 25px;
+        img{
+            width: 80%;
+            float: right;
+        }
+    }
+    .rightImage{
+        position: relative;
+        top: 25px;
+        img{
+            width: 80%;
+            float: left;
+        }
+    }
+    .middleImage{
+        margin-top: 25px;
+        position: relative;
+        top: 25px;
+        img{
+            width: 40%;
+        }
+    }
+    img{
+        border-radius: 18px;
+    }
+    .content{
+        .tag__line{
+            background-color: #F8B400;
+            border: none;
+            font-weight: 500;
+            font-size: 17px;
+            color: #fff;
+            padding: 10px 30px;
+            border-radius: 7px;
+        }
+        h1{
+            margin-top: 50px;
+            font-weight: 700;
+            font-size: 38px;
+            color: #fff;
+        }
+        h5{
+            margin: 0 auto;
+            margin-top: 20px;
+            color: #fff;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 40px;
+        }
+    }
+}
+#globalBaner.globalBaner2{
+    padding: 100px 0px !important;
+}
+#globalBaner.globalBaner3{
+    padding: 70px 0px 140px 0px !important;
+    .leftImage{
+        img{
+            width: 60%;
+        }
+    }
+    .rightImage{
+        position: relative;
+        top: 150px;
+        right: 170px;
+    }
+}
+#globalBaner.globalBaner4{
+    padding-top: 60px;
+    .middleImage2{
+        margin-top: 50px;
+        position: relative;
+        top: 20px;
+        img{
+            width: 40% !important;
+        }
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #globalBaner {
+        padding-top: 50px;
+        overflow: hidden;
+    }
+    #globalBaner .content h1 {
+        font-size: 28px;
+    }
+    #globalBaner .content h5 {
+        font-size: 16px;
+        line-height: 31px;
+    }
+    #globalBaner .leftImage img {
+        width: 100%;
+        float: right;
+    }
+    #globalBaner .rightImage img {
+        width: 100%;
+        float: left;
+    }
+    #globalBaner .middleImage img {
+        width: 58%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1700px) {
+    #globalBaner.globalBaner3 .rightImage {
+        position: relative;
+        top: 150px;
+        right: 70px;
+    }
+    #globalBaner.globalBaner3 .leftImage img {
+        width: 81%;
+    }
+}
+
+@media (min-width: 1200px) and (max-width: 1350px) {
+    #globalBaner .leftImage img {
+        width: 100%;
+        float: right;
+    }
+    #globalBaner .rightImage img {
+        width: 100%;
+        float: left;
+    }
+    #globalBaner .middleImage img {
+        width: 54%;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    #globalBaner.globalBaner3 .rightImage {
+        top: 125px;
+        right: 0px;
+    }
+    #globalBaner.globalBaner3 .leftImage img {
+        width: 86%;
+    }
+    #globalBaner.globalBaner3 .rightImage img {
+        width: 100%;
+    }
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    #globalBaner.globalBaner2 .leftImage img {
+        width: 100%;
+        float: right;
+    }
+    #globalBaner.globalBaner2 .rightImage img {
+        width: 100%;
+        float: left;
+    }
+    #globalBaner.globalBaner3 {
+        padding: 70px 0px 70px 0px !important;
+    }
+}
+
+
+@media (max-width: 991px) {
+    #globalBaner {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        overflow: hidden;
+    }
+    #globalBaner .content h1 {
+        font-size: 28px;
+    }
+    #globalBaner .content h5 {
+        font-size: 16px;
+        line-height: 31px;
+    }
+    .hide__sp{
+        display: none !important;
+    }
+
+    #globalBaner.globalBaner4 {
+        padding-bottom: 0px;
+    }
+    #globalBaner.globalBaner4 .middleImage2 img {
+        width: 51% !important;
+    }
+    #globalBaner.globalBaner4 .middleImage2 {
+        margin-top: 5px;
+    }
+}
+@media (max-width: 767px) {
+    .hide__mobile{
+        display: none;
+    }
+    #globalBaner.globalBaner3 {
+        padding: 70px 0px 70px 0px !important;
+    }
+}

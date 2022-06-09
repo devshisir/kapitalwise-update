@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1968" height="1719" viewBox="0 0 1968 1719">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_2532" data-name="Rectangle 2532" width="1619.46" height="1618.459" rx="18" fill="#fff"/>
+    </clipPath>
+    <clipPath id="clip-Web_1920_99">
+      <rect width="1968" height="1719"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_99" data-name="Web 1920 – 99" clip-path="url(#clip-Web_1920_99)">
+    <rect width="1968" height="1719" fill="#fff"/>
+    <g id="Group_1060" data-name="Group 1060" transform="translate(-4907.375 -2420.003)">
+      <g id="Group_1059" data-name="Group 1059" transform="translate(5051.645 2470.274)">
+        <rect id="Rectangle_2524" data-name="Rectangle 2524" width="1619.46" height="1618.459" rx="18" fill="#fff"/>
+        <text id="Create_Deal" data-name="Create Deal" transform="translate(371.257 171.665)" fill="#2c40ce" font-size="91" font-family="DMSans-Medium, DM Sans" font-weight="500"><tspan x="-252.115" y="0">Create Deal</tspan></text>
+        <text id="Name" transform="translate(225.257 322.504)" fill="#202020" font-size="79" font-family="DMSans-Regular, DM Sans"><tspan x="-106.413" y="0">Name</tspan></text>
+        <text id="Pipeline" transform="translate(264.257 703.462)" fill="#202020" font-size="80" font-family="DMSans-Regular, DM Sans"><tspan x="-144.68" y="0">Pipeline</tspan></text>
+        <text id="Amount" transform="translate(263.257 1081.42)" fill="#202020" font-size="78" font-family="DMSans-Regular, DM Sans"><tspan x="-143.598" y="0">Amount</tspan></text>
+        <text id="Stage" transform="translate(978.388 704.462)" fill="#202020" font-size="81" font-family="DMSans-Regular, DM Sans"><tspan x="-105.584" y="0">Stage</tspan></text>
+        <text id="Close_date" data-name="Close date" transform="translate(1071.388 1083.42)" fill="#202020" font-size="80" font-family="DMSans-Regular, DM Sans"><tspan x="-198.6" y="0">Close date</tspan></text>
+        <g id="Rectangle_2525" data-name="Rectangle 2525" transform="translate(119.257 393.773)" fill="none" stroke="#777" stroke-width="0.5">
+          <rect width="1397.703" height="169.624" rx="3" stroke="none"/>
+          <rect x="0.25" y="0.25" width="1397.203" height="169.124" rx="2.75" fill="none"/>
+        </g>
+        <g id="Rectangle_2526" data-name="Rectangle 2526" transform="translate(119.257 773.731)" fill="none" stroke="#777" stroke-width="0.5">
+          <rect width="644.572" height="169.624" rx="3" stroke="none"/>
+          <rect x="0.25" y="0.25" width="644.072" height="169.124" rx="2.75" fill="none"/>
+        </g>
+        <g id="Rectangle_2527" data-name="Rectangle 2527" transform="translate(119.257 1153.69)" fill="none" stroke="#777" stroke-width="0.5">
+          <rect width="644.572" height="169.624" rx="3" stroke="none"/>
+          <rect x="0.25" y="0.25" width="644.072" height="169.124" rx="2.75" fill="none"/>
+        </g>
+        <g id="Rectangle_2528" data-name="Rectangle 2528" transform="translate(872.388 773.731)" fill="none" stroke="#777" stroke-width="0.5">
+          <rect width="644.572" height="169.624" rx="3" stroke="none"/>
+          <rect x="0.25" y="0.25" width="644.072" height="169.124" rx="2.75" fill="none"/>
+        </g>
+        <g id="Rectangle_2529" data-name="Rectangle 2529" transform="translate(872.388 1153.69)" fill="none" stroke="#777" stroke-width="0.5">
+          <rect width="644.572" height="169.624" rx="3" stroke="none"/>
+          <rect x="0.25" y="0.25" width="644.072" height="169.124" rx="2.75" fill="none"/>
+        </g>
+        <text id="Sales_Pipeline" data-name="Sales Pipeline" transform="translate(363.967 878.441)" fill="#202020" font-size="65" font-family="DMSans-Regular, DM Sans"><tspan x="-204.49" y="0">Sales Pipeline</tspan></text>
+        <text id="_4875" data-name="$4875" transform="translate(253.967 1258.399)" fill="#202020" font-size="65" font-family="DMSans-Regular, DM Sans"><tspan x="-93.697" y="0">$4875</tspan></text>
+        <text id="Appoinment" transform="translate(1113.668 878.441)" fill="#202020" font-size="65" font-family="DMSans-Regular, DM Sans"><tspan x="-186.745" y="0">Appoinment</tspan></text>
+        <text id="_09-05-2022" data-name="09-05-2022" transform="translate(1115.883 1258.399)" fill="#202020" font-size="65" font-family="DMSans-Regular, DM Sans"><tspan x="-196.397" y="0">09-05-2022</tspan></text>
+        <path id="Polygon_54" data-name="Polygon 54" d="M13.57,0,27.14,27.14H0Z" transform="translate(668.839 875.506) rotate(180)" fill="#202020"/>
+        <path id="Polygon_55" data-name="Polygon 55" d="M13.57,0,27.14,27.14H0Z" transform="translate(1435.541 875.506) rotate(180)" fill="#202020"/>
+        <g id="calendar" transform="translate(1390.756 1199.766)">
+          <path id="Path_4795" data-name="Path 4795" d="M104.881,249H99.515a2.515,2.515,0,1,0,0,5.031h5.366a2.515,2.515,0,1,0,0-5.031Z" transform="translate(-80.734 -211.438)" fill="#202020"/>
+          <path id="Path_4796" data-name="Path 4796" d="M104.881,313H99.515a2.515,2.515,0,1,0,0,5.031h5.366a2.515,2.515,0,1,0,0-5.031Z" transform="translate(-80.734 -264.707)" fill="#202020"/>
+          <path id="Path_4797" data-name="Path 4797" d="M104.881,377H99.515a2.515,2.515,0,0,0,0,5.031h5.366a2.515,2.515,0,1,0,0-5.031Z" transform="translate(-80.734 -317.975)" fill="#202020"/>
+          <path id="Path_4798" data-name="Path 4798" d="M232.881,249h-5.366a2.515,2.515,0,0,0,0,5.031h5.366a2.515,2.515,0,1,0,0-5.031Z" transform="translate(-187.271 -211.438)" fill="#202020"/>
+          <path id="Path_4799" data-name="Path 4799" d="M232.881,313h-5.366a2.515,2.515,0,0,0,0,5.031h5.366a2.515,2.515,0,1,0,0-5.031Z" transform="translate(-187.271 -264.707)" fill="#202020"/>
+          <path id="Path_4800" data-name="Path 4800" d="M232.881,377h-5.366a2.515,2.515,0,0,0,0,5.031h5.366a2.515,2.515,0,0,0,0-5.031Z" transform="translate(-187.271 -317.975)" fill="#202020"/>
+          <path id="Path_4801" data-name="Path 4801" d="M360.881,249h-5.366a2.515,2.515,0,0,0,0,5.031h5.366a2.515,2.515,0,1,0,0-5.031Z" transform="translate(-293.807 -211.438)" fill="#202020"/>
+          <path id="Path_4802" data-name="Path 4802" d="M360.881,313h-5.366a2.515,2.515,0,0,0,0,5.031h5.366a2.515,2.515,0,1,0,0-5.031Z" transform="translate(-293.807 -264.707)" fill="#202020"/>
+          <path id="Path_4803" data-name="Path 4803" d="M360.881,377h-5.366a2.515,2.515,0,0,0,0,5.031h5.366a2.515,2.515,0,0,0,0-5.031Z" transform="translate(-293.807 -317.975)" fill="#202020"/>
+          <path id="Path_4804" data-name="Path 4804" d="M78.309,31.707H72.272V27.515a2.515,2.515,0,0,0-5.031,0v4.192h-21.8V27.515a2.515,2.515,0,0,0-5.031,0v4.192h-21.8V27.515a2.515,2.515,0,0,0-5.031,0v4.192H7.546A7.554,7.554,0,0,0,0,39.253V94.925a7.554,7.554,0,0,0,7.546,7.546H78.309a7.554,7.554,0,0,0,7.546-7.546V39.253A7.554,7.554,0,0,0,78.309,31.707ZM5.031,39.253a2.518,2.518,0,0,1,2.515-2.515h6.037V40.93a2.515,2.515,0,0,0,5.031,0V36.738h21.8V40.93a2.515,2.515,0,0,0,5.031,0V36.738h21.8V40.93a2.515,2.515,0,0,0,5.031,0V36.738h6.037a2.518,2.518,0,0,1,2.515,2.515v9.893H5.031ZM78.309,97.44H7.546a2.518,2.518,0,0,1-2.515-2.515V54.177H80.824V94.925A2.518,2.518,0,0,1,78.309,97.44Z" transform="translate(0 -25)" fill="#202020"/>
+        </g>
+        <text id="Assignee" transform="translate(284.257 1462.378)" fill="#202020" font-size="79" font-family="DMSans-Regular, DM Sans"><tspan x="-164.517" y="0">Assignee</tspan></text>
+        <text id="Contacts" transform="translate(1042.388 1463.378)" fill="#202020" font-size="80" font-family="DMSans-Regular, DM Sans"><tspan x="-170.2" y="0">Contacts</tspan></text>
+        <g id="Mask_Group_24" data-name="Mask Group 24" clip-path="url(#clip-path)">
+          <g id="Group_1058" data-name="Group 1058" transform="translate(119.257 1533.648)">
+            <g id="Rectangle_2530" data-name="Rectangle 2530" fill="none" stroke="#202020" stroke-width="0.5">
+              <rect width="644.572" height="169.624" rx="3" stroke="none"/>
+              <rect x="0.25" y="0.25" width="644.072" height="169.124" rx="2.75" fill="none"/>
+            </g>
+            <g id="Rectangle_2531" data-name="Rectangle 2531" transform="translate(753.131)" fill="none" stroke="#575757" stroke-width="0.5">
+              <rect width="644.572" height="169.624" rx="3" stroke="none"/>
+              <rect x="0.25" y="0.25" width="644.072" height="169.124" rx="2.75" fill="none"/>
+            </g>
+            <text id="Catherine" transform="translate(182.71 102.71)" fill="#202020" font-size="63" font-family="DMSans-Regular, DM Sans"><tspan x="-142.317" y="0">Catherine</tspan></text>
+            <text id="Alex" transform="translate(861.626 102.71)" fill="#505050" font-size="63" font-family="DMSans-Regular, DM Sans"><tspan x="-60.795" y="0">Alex</tspan></text>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

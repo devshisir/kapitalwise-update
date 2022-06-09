@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1968" height="1719" viewBox="0 0 1968 1719">
+  <defs>
+    <clipPath id="clip-Web_1920_98">
+      <rect width="1968" height="1719"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_98" data-name="Web 1920 – 98" clip-path="url(#clip-Web_1920_98)">
+    <rect width="1968" height="1719" fill="#fff"/>
+    <g id="Group_1056" data-name="Group 1056" transform="translate(-1066.23 -197.644)">
+      <rect id="Rectangle_2373" data-name="Rectangle 2373" width="1898.37" height="1618.824" rx="58" transform="translate(1101.044 247.732)" fill="#fff"/>
+      <text id="Contacts" transform="translate(1228.301 443.636)" fill="#2c40ce" font-size="127" font-family="DMSans-Medium, DM Sans" font-weight="500"><tspan x="0" y="0">Contacts</tspan></text>
+      <circle id="Ellipse_569" data-name="Ellipse 569" cx="143.163" cy="143.163" r="143.163" transform="translate(2580.042 568.001)" fill="#e5e5e5"/>
+      <circle id="Ellipse_570" data-name="Ellipse 570" cx="143.163" cy="143.163" r="143.163" transform="translate(2580.042 989.536)" fill="#e5e5e5"/>
+      <circle id="Ellipse_571" data-name="Ellipse 571" cx="143.163" cy="143.163" r="143.163" transform="translate(2580.042 1411.072)" fill="#e5e5e5"/>
+      <text id="New_contacts" data-name="New contacts" transform="translate(1227.947 676.908)" fill="#3b3c40" font-size="94" font-family="DMSans-Regular, DM Sans"><tspan x="0" y="0">New contacts</tspan></text>
+      <text id="Subscribed" transform="translate(1227.947 1097.443)" fill="#3b3c40" font-size="93" font-family="DMSans-Regular, DM Sans"><tspan x="0" y="0">Subscribed</tspan></text>
+      <text id="Unsubscribed" transform="translate(1227.947 1519.979)" fill="#3b3c40" font-size="94" font-family="DMSans-Regular, DM Sans"><tspan x="0" y="0">Unsubscribed</tspan></text>
+      <rect id="Rectangle_2437" data-name="Rectangle 2437" width="1280.514" height="55.675" rx="10" transform="translate(1227.947 766.838)" fill="#dfdfdf"/>
+      <rect id="Rectangle_2440" data-name="Rectangle 2440" width="1280.514" height="55.675" rx="10" transform="translate(1227.947 1188.374)" fill="#dfdfdf"/>
+      <rect id="Rectangle_2442" data-name="Rectangle 2442" width="1280.514" height="55.675" rx="10" transform="translate(1227.947 1609.91)" fill="#dfdfdf"/>
+      <rect id="Rectangle_2438" data-name="Rectangle 2438" width="540.838" height="55.675" rx="10" transform="translate(1227.947 766.838)" fill="#c2c2c2"/>
+      <rect id="Rectangle_2439" data-name="Rectangle 2439" width="540.838" height="55.675" rx="10" transform="translate(1227.947 1188.374)" fill="#c2c2c2"/>
+      <rect id="Rectangle_2441" data-name="Rectangle 2441" width="540.838" height="55.675" rx="10" transform="translate(1227.947 1609.91)" fill="#c2c2c2"/>
+      <text id="_10" data-name="10" transform="translate(2721.577 751.629)" fill="#202020" font-size="121" font-family="DMSans-Medium, DM Sans" font-weight="500"><tspan x="-62.073" y="0">10</tspan></text>
+      <text id="_42" data-name="42" transform="translate(2719.67 1179.164)" fill="#202020" font-size="127" font-family="DMSans-Medium, DM Sans" font-weight="500"><tspan x="-75.883" y="0">42</tspan></text>
+      <text id="_08" data-name="08" transform="translate(2719.717 1600.7)" fill="#202020" font-size="127" font-family="DMSans-Medium, DM Sans" font-weight="500"><tspan x="-83.947" y="0">08</tspan></text>
+    </g>
+  </g>
+</svg>

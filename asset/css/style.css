@@ -100,9 +100,9 @@ p { margin: 0; padding: 0; color: #7B7B80; font-family: "DM Sans", sans-serif; }
 
 #hero__baner { background-color: #F8B400; padding-top: 100px; }
 
-#hero__baner .content { padding-top: 70px; }
+#hero__baner .content { padding-top: 0px; }
 
-#hero__baner .content h1 { width: max-content; font-size: 50px; font-weight: 700; color: #fff; line-height: 65px; }
+#hero__baner .content h1 { font-size: 50px; font-weight: 700; color: #fff; line-height: 65px; }
 
 #hero__baner .content h5 { margin: 30px 0px; font-weight: 500; font-size: 20px; color: #fff; line-height: 32px; }
 
@@ -180,7 +180,7 @@ p { margin: 0; padding: 0; color: #7B7B80; font-family: "DM Sans", sans-serif; }
 
 #quoteBox .quoteBoxContent p { color: #fff; margin-top: 10px; font-size: 15px; }
 
-#quoteBox .quoteBoxContent a { margin-top: 20px; display: inline-block; background-color: #fff; color: #2C40CE; font-weight: 500; padding: 13px 30px; border-radius: 8px; }
+#quoteBox .quoteBoxContent a { margin-top: 30px; display: inline-block; background-color: #fff; color: #2C40CE; font-weight: 500; padding: 13px 30px; min-width: 161px; border-radius: 8px; }
 
 #quoteBox .quoteBoxContent a:hover { opacity: 0.7; }
 
@@ -400,6 +400,10 @@ p { margin: 0; padding: 0; color: #7B7B80; font-family: "DM Sans", sans-serif; }
 
 #requestDemo .contactFormArea .form__box .submit__action button:hover { background-color: #435AFF; }
 
+#requestDemo .label-container { width: max-content; border: 1px solid #707070; position: relative; flex: inherit !important; padding: 4px 40px; border-radius: 30px; margin: 0 auto; display: table; }
+
+#requestDemo .label-container::after { content: "\f107"; position: absolute; margin-left: 16px; font-family: "Font Awesome 6 Pro"; top: 50%; transform: translateY(-50%); }
+
 #requestDemo .datePickerForm { height: 100%; background-color: #F8B400; display: flex; justify-content: center; align-items: center; flex-direction: column; position: relative; z-index: 99999999; /* sunday */ /* vertical highlight */ /* weekend */ /* sunday */ /* start on monday - weekend */ /* start on monday - sunday */ }
 
 #requestDemo .datePickerForm::after { height: 100%; width: 100%; content: ""; position: absolute; background-color: #F8B400; right: -100%; top: 0; }
@@ -432,7 +436,7 @@ p { margin: 0; padding: 0; color: #7B7B80; font-family: "DM Sans", sans-serif; }
 
 #requestDemo .datePickerForm .buttons-container .label-container { display: inline-block; -webkit-box-flex: 1; -moz-box-flex: 1; -webkit-flex: 1; -ms-flex: 1; flex: 1; text-align: center; text-transform: uppercase; font-weight: bold; }
 
-#requestDemo .datePickerForm .year-dropdown { -webkit-appearance: none; -moz-appearance: none; appearance: none; border: none; font-size: inherit; font-weight: inherit; font-family: inherit; padding: 5px 20px; }
+#requestDemo .datePickerForm .year-dropdown { -webkit-appearance: none; -moz-appearance: none; appearance: none; border: none; font-size: inherit; font-weight: inherit; font-family: inherit; padding: 0px; cursor: pointer; }
 
 #requestDemo .datePickerForm .prev-button, #requestDemo .datePickerForm .next-button { display: none; }
 
@@ -448,19 +452,19 @@ p { margin: 0; padding: 0; color: #7B7B80; font-family: "DM Sans", sans-serif; }
 
 #requestDemo .datePickerForm .day.today span { position: relative; display: inline-block; font-size: 110%; }
 
-#requestDemo .datePickerForm .week:not(.start-on-monday) .day:first-child, #requestDemo .datePickerForm .week:not(.start-on-monday) .day:last-child { color: orange; }
+#requestDemo .datePickerForm .week:not(.start-on-monday) .day:first-child, #requestDemo .datePickerForm .week:not(.start-on-monday) .day:last-child { color: #12141E; }
 
-#requestDemo .datePickerForm .week:not(.start-on-monday) .day:first-child { color: red; }
+#requestDemo .datePickerForm .week:not(.start-on-monday) .day:first-child { color: #12141E; }
 
 #requestDemo .datePickerForm .week.start-on-monday .day:nth-child(6), #requestDemo .datePickerForm .week.start-on-monday .day:last-child { color: orange; }
 
 #requestDemo .datePickerForm .week.start-on-monday .day:last-child { color: red; }
 
-#requestDemo .datePickerForm .day.today span::after { content: ""; position: absolute; bottom: 3px; left: 50%; transform: translateX(-50%); border-bottom: 3px solid #F8B400; width: 15px; height: 1px; }
+#requestDemo .datePickerForm .day.today span::after { display: none; }
 
-#requestDemo .datePickerForm .day.sunday span { color: #ff8a80; }
+#requestDemo .datePickerForm .day.sunday span { color: #12141E; }
 
-#requestDemo .datePickerForm .week .day.highlight span { color: #2196f3; }
+#requestDemo .datePickerForm .week .day.highlight span { color: #12141E; }
 
 #requestDemo .datePickerForm .week .day.selected span { background: #2C40CE; color: white; }
 
@@ -623,6 +627,8 @@ p { margin: 0; padding: 0; color: #7B7B80; font-family: "DM Sans", sans-serif; }
   #requestDemo .contactFormArea .form__box { width: 100%; }
   .dropdown:hover .dropdown-menu { display: block; right: auto !important; left: 50% !important; transform: translate(-50%, 85px) !important; top: 0px; }
   #freeUnlimited02 .rightContent img { width: 100%; } }
+
+@media (min-width: 1261px) and (max-width: 1400px) { #hero__baner .content { padding-bottom: 100px; } }
 
 @media (min-width: 1200px) and (max-width: 5000px) { .dropdown:hover .dropdown-menu { display: block; right: auto !important; left: 50% !important; transform: translate(-50%, 85px) !important; top: 0px; } }
 
@@ -789,3 +795,72 @@ p { margin: 0; padding: 0; color: #7B7B80; font-family: "DM Sans", sans-serif; }
 
 @media (max-width: 767px) { #mobileMenu { display: block; }
   #mobileMenuContent { display: block; } }
+
+#globalBaner { padding-top: 100px; overflow: hidden; }
+
+#globalBaner .leftImage { position: relative; top: 25px; }
+
+#globalBaner .leftImage img { width: 80%; float: right; }
+
+#globalBaner .rightImage { position: relative; top: 25px; }
+
+#globalBaner .rightImage img { width: 80%; float: left; }
+
+#globalBaner .middleImage { margin-top: 25px; position: relative; top: 25px; }
+
+#globalBaner .middleImage img { width: 40%; }
+
+#globalBaner img { border-radius: 18px; }
+
+#globalBaner .content .tag__line { background-color: #F8B400; border: none; font-weight: 500; font-size: 17px; color: #fff; padding: 10px 30px; border-radius: 7px; }
+
+#globalBaner .content h1 { margin-top: 50px; font-weight: 700; font-size: 38px; color: #fff; }
+
+#globalBaner .content h5 { margin: 0 auto; margin-top: 20px; color: #fff; font-weight: 400; font-size: 24px; line-height: 40px; }
+
+#globalBaner.globalBaner2 { padding: 100px 0px !important; }
+
+#globalBaner.globalBaner3 { padding: 70px 0px 140px 0px !important; }
+
+#globalBaner.globalBaner3 .leftImage img { width: 60%; }
+
+#globalBaner.globalBaner3 .rightImage { position: relative; top: 150px; right: 170px; }
+
+#globalBaner.globalBaner4 { padding-top: 60px; }
+
+#globalBaner.globalBaner4 .middleImage2 { margin-top: 50px; position: relative; top: 20px; }
+
+#globalBaner.globalBaner4 .middleImage2 img { width: 40% !important; }
+
+@media (min-width: 992px) and (max-width: 1199px) { #globalBaner { padding-top: 50px; overflow: hidden; }
+  #globalBaner .content h1 { font-size: 28px; }
+  #globalBaner .content h5 { font-size: 16px; line-height: 31px; }
+  #globalBaner .leftImage img { width: 100%; float: right; }
+  #globalBaner .rightImage img { width: 100%; float: left; }
+  #globalBaner .middleImage img { width: 58%; } }
+
+@media (min-width: 1200px) and (max-width: 1700px) { #globalBaner.globalBaner3 .rightImage { position: relative; top: 150px; right: 70px; }
+  #globalBaner.globalBaner3 .leftImage img { width: 81%; } }
+
+@media (min-width: 1200px) and (max-width: 1350px) { #globalBaner .leftImage img { width: 100%; float: right; }
+  #globalBaner .rightImage img { width: 100%; float: left; }
+  #globalBaner .middleImage img { width: 54%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) { #globalBaner.globalBaner3 .rightImage { top: 125px; right: 0px; }
+  #globalBaner.globalBaner3 .leftImage img { width: 86%; }
+  #globalBaner.globalBaner3 .rightImage img { width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 991px) { #globalBaner.globalBaner2 .leftImage img { width: 100%; float: right; }
+  #globalBaner.globalBaner2 .rightImage img { width: 100%; float: left; }
+  #globalBaner.globalBaner3 { padding: 70px 0px 70px 0px !important; } }
+
+@media (max-width: 991px) { #globalBaner { padding-top: 50px; padding-bottom: 50px; overflow: hidden; }
+  #globalBaner .content h1 { font-size: 28px; }
+  #globalBaner .content h5 { font-size: 16px; line-height: 31px; }
+  .hide__sp { display: none !important; }
+  #globalBaner.globalBaner4 { padding-bottom: 0px; }
+  #globalBaner.globalBaner4 .middleImage2 img { width: 51% !important; }
+  #globalBaner.globalBaner4 .middleImage2 { margin-top: 5px; } }
+
+@media (max-width: 767px) { .hide__mobile { display: none; }
+  #globalBaner.globalBaner3 { padding: 70px 0px 70px 0px !important; } }

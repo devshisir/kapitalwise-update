@@ -2,9 +2,8 @@
     background-color: #F8B400;
     padding-top: 100px;
     .content{
-        padding-top: 70px;
+        padding-top: 0px;
         h1{
-            width: max-content;
             font-size: 50px;
             font-weight: 700;
             color: #fff;
@@ -229,12 +228,13 @@
             font-size: 15px;
         }
         a{
-            margin-top: 20px;
+            margin-top: 30px;
             display: inline-block;
             background-color: #fff;
             color: $brand;
             font-weight: 500;
             padding: 13px 30px;
+            min-width: 161px;
             border-radius: 8px;
             &:hover{
                 opacity: 0.7;

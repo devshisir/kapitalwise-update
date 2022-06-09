@@ -1,0 +1,81 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1968" height="1719" viewBox="0 0 1968 1719">
+  <defs>
+    <linearGradient id="linear-gradient" x2="1.083" y2="1.141" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#fff" stop-opacity="0.431"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0.149"/>
+    </linearGradient>
+    <filter id="Rectangle_2542" x="149.059" y="25.065" width="1699.884" height="1698.87" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-opacity="0.031"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Rectangle_2542)">
+        <rect id="Rectangle_2542-2" data-name="Rectangle 2542" width="1639.883" height="1638.87" rx="18" transform="translate(0 0)" stroke="rgba(255,255,255,0.3)" stroke-width="1" fill="url(#linear-gradient)"/>
+      </g>
+    </clipPath>
+    <clipPath id="clip-Web_1920_101">
+      <rect width="1968" height="1719"/>
+    </clipPath>
+  </defs>
+  <g id="Web_1920_101" data-name="Web 1920 – 101" clip-path="url(#clip-Web_1920_101)">
+    <rect width="1968" height="1719" fill="#fff"/>
+    <g id="Group_1063" data-name="Group 1063" transform="translate(-5963.258 -2810.574)">
+      <rect id="Rectangle_2535" data-name="Rectangle 2535" width="1639.883" height="1638.87" rx="18" transform="translate(6127.316 2850.639)" fill="#fff"/>
+      <text id="Create_Task" data-name="Create Task" transform="translate(6504.074 3024.332)" fill="#2c40ce" font-size="92" font-family="DMSans-Medium, DM Sans" font-weight="500"><tspan x="-255.668" y="0">Create Task</tspan></text>
+      <text id="Task_Title" data-name="Task Title" transform="translate(6421.074 3178.225)" fill="#202020" font-size="81" font-family="DMSans-Regular, DM Sans"><tspan x="-173.056" y="0">Task Title</tspan></text>
+      <text id="Assignee" transform="translate(6415.074 3561.975)" fill="#202020" font-size="80" font-family="DMSans-Regular, DM Sans"><tspan x="-166.6" y="0">Assignee</tspan></text>
+      <text id="Due_Date" data-name="Due Date" transform="translate(6421.074 3947.725)" fill="#202020" font-size="81" font-family="DMSans-Regular, DM Sans"><tspan x="-172.814" y="0">Due Date</tspan></text>
+      <text id="Type" transform="translate(7103.704 3563.975)" fill="#202020" font-size="82" font-family="DMSans-Regular, DM Sans"><tspan x="-92.783" y="0">Type</tspan></text>
+      <text id="Contact" transform="translate(7166.704 3949.725)" fill="#202020" font-size="83" font-family="DMSans-Regular, DM Sans"><tspan x="-155.833" y="0">Contact</tspan></text>
+      <g id="Rectangle_2536" data-name="Rectangle 2536" transform="translate(6248.074 3249.377)" fill="none" stroke="#777" stroke-width="0.5">
+        <rect width="1415.33" height="171.763" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="1414.83" height="171.263" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_2537" data-name="Rectangle 2537" transform="translate(6248.074 3634.127)" fill="none" stroke="#777" stroke-width="0.5">
+        <rect width="652.701" height="171.763" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="652.201" height="171.263" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_2538" data-name="Rectangle 2538" transform="translate(6248.074 4018.877)" fill="none" stroke="#777" stroke-width="0.5">
+        <rect width="652.701" height="171.763" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="652.201" height="171.263" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_2539" data-name="Rectangle 2539" transform="translate(7010.704 3634.127)" fill="none" stroke="#777" stroke-width="0.5">
+        <rect width="652.701" height="171.763" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="652.201" height="171.263" rx="2.75" fill="none"/>
+      </g>
+      <g id="Rectangle_2540" data-name="Rectangle 2540" transform="translate(7010.704 4018.877)" fill="none" stroke="#777" stroke-width="0.5">
+        <rect width="652.701" height="171.763" rx="3" stroke="none"/>
+        <rect x="0.25" y="0.25" width="652.201" height="171.263" rx="2.75" fill="none"/>
+      </g>
+      <text id="Alex" transform="translate(6366.038 3739.35)" fill="#202020" font-size="65" font-family="DMSans-Regular, DM Sans"><tspan x="-62.725" y="0">Alex</tspan></text>
+      <text id="_09-05-2022" data-name="09-05-2022" transform="translate(6502.038 4125.1)" fill="#202020" font-size="66" font-family="DMSans-Regular, DM Sans"><tspan x="-199.419" y="0">09-05-2022</tspan></text>
+      <text id="Email" transform="translate(7137.797 3738.35)" fill="#202020" font-size="64" font-family="DMSans-Regular, DM Sans"><tspan x="-78.752" y="0">Email</tspan></text>
+      <text id="Andrew" transform="translate(7174.797 4125.1)" fill="#202020" font-size="66" font-family="DMSans-Regular, DM Sans"><tspan x="-115.863" y="0">Andrew</tspan></text>
+      <path id="Polygon_56" data-name="Polygon 56" d="M13.741,0,27.482,27.482H0Z" transform="translate(6804.587 3737.185) rotate(180)" fill="#202020"/>
+      <path id="Polygon_57" data-name="Polygon 57" d="M13.741,0,27.482,27.482H0Z" transform="translate(7580.958 3737.185) rotate(180)" fill="#202020"/>
+      <g id="calendar" transform="translate(6761.12 4065.534)">
+        <path id="Path_4805" data-name="Path 4805" d="M104.981,249H99.547a2.547,2.547,0,1,0,0,5.094h5.434a2.547,2.547,0,1,0,0-5.094Z" transform="translate(-80.529 -210.965)" fill="#202020"/>
+        <path id="Path_4806" data-name="Path 4806" d="M104.981,313H99.547a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,1,0,0-5.094Z" transform="translate(-80.529 -264.098)" fill="#202020"/>
+        <path id="Path_4807" data-name="Path 4807" d="M104.981,377H99.547a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,1,0,0-5.094Z" transform="translate(-80.529 -317.23)" fill="#202020"/>
+        <path id="Path_4808" data-name="Path 4808" d="M232.981,249h-5.434a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,0,0,0-5.094Z" transform="translate(-186.795 -210.965)" fill="#202020"/>
+        <path id="Path_4809" data-name="Path 4809" d="M232.981,313h-5.434a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,0,0,0-5.094Z" transform="translate(-186.795 -264.098)" fill="#202020"/>
+        <path id="Path_4810" data-name="Path 4810" d="M232.981,377h-5.434a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,0,0,0-5.094Z" transform="translate(-186.795 -317.23)" fill="#202020"/>
+        <path id="Path_4811" data-name="Path 4811" d="M360.981,249h-5.434a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,0,0,0-5.094Z" transform="translate(-293.061 -210.965)" fill="#202020"/>
+        <path id="Path_4812" data-name="Path 4812" d="M360.981,313h-5.434a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,0,0,0-5.094Z" transform="translate(-293.061 -264.098)" fill="#202020"/>
+        <path id="Path_4813" data-name="Path 4813" d="M360.981,377h-5.434a2.547,2.547,0,0,0,0,5.094h5.434a2.547,2.547,0,0,0,0-5.094Z" transform="translate(-293.061 -317.23)" fill="#202020"/>
+        <path id="Path_4814" data-name="Path 4814" d="M79.3,31.792H73.184V27.547a2.547,2.547,0,1,0-5.094,0v4.245H46.016V27.547a2.547,2.547,0,1,0-5.094,0v4.245H18.848V27.547a2.547,2.547,0,1,0-5.094,0v4.245H7.641A7.65,7.65,0,0,0,0,39.433V95.807a7.65,7.65,0,0,0,7.641,7.641H79.3a7.65,7.65,0,0,0,7.641-7.641V39.433A7.65,7.65,0,0,0,79.3,31.792Zm-74.2,7.641a2.55,2.55,0,0,1,2.547-2.547h6.113v4.245a2.547,2.547,0,1,0,5.094,0V36.886H40.922v4.245a2.547,2.547,0,1,0,5.094,0V36.886H68.09v4.245a2.547,2.547,0,1,0,5.094,0V36.886H79.3a2.55,2.55,0,0,1,2.547,2.547V49.451H5.094ZM79.3,98.354H7.641a2.55,2.55,0,0,1-2.547-2.547V54.545h76.75V95.807A2.55,2.55,0,0,1,79.3,98.354Z" transform="translate(0 -25)" fill="#202020"/>
+      </g>
+      <g id="Mask_Group_25" data-name="Mask Group 25" transform="translate(6127.316 2850.639)" clip-path="url(#clip-path)">
+        <text id="Reminder" transform="translate(296.758 1480.836)" fill="#262626" font-size="80" font-family="DMSans-Regular, DM Sans"><tspan x="-175.92" y="0">Reminder</tspan></text>
+        <g id="Rectangle_2541" data-name="Rectangle 2541" transform="translate(120.758 1552.988)" fill="none" stroke="#777" stroke-width="0.5">
+          <rect width="652.701" height="171.763" rx="3" stroke="none"/>
+          <rect x="0.25" y="0.25" width="652.201" height="171.263" rx="2.75" fill="none"/>
+        </g>
+        <text id="_30_min" data-name="30 min" transform="translate(268.981 1659.211)" fill="#2d2d2d" font-size="66" font-family="DMSans-Regular, DM Sans"><tspan x="-107.316" y="0">30 min</tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -21,6 +21,7 @@ function watch(){
     gulp.watch('./asset/sass/page/*.scss', style);
     gulp.watch('./asset/sass/responsive/*.scss', style);
     gulp.watch('./*.html').on('change', browserSync.reload);
+    gulp.watch('./*/*.html').on('change', browserSync.reload);
     gulp.watch('./asset/css/*.css').on('change', browserSync.reload);
     gulp.watch('./asset/js/*.js').on('change', browserSync.reload);
 }

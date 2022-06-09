@@ -90,6 +90,25 @@
       }
     }
   }
+  
+  .label-container{
+    width: max-content;
+    border: 1px solid #707070;
+    position: relative;
+    flex: inherit !important;
+    padding: 4px 40px;
+    border-radius: 30px;
+    margin: 0 auto;
+    display: table;
+    &::after{
+      content: "\f107";
+      position: absolute;
+      margin-left: 16px;
+      font-family: "Font Awesome 6 Pro"; 
+      top: 50%;
+      transform: translateY(-50%);
+    }
+  }
 
   .datePickerForm {
     height: 100%;
@@ -207,7 +226,8 @@
       font-size: inherit;
       font-weight: inherit;
       font-family: inherit;
-      padding: 5px 20px;
+      padding: 0px;
+      cursor: pointer;
     }
 
     .prev-button,
@@ -253,12 +273,12 @@
     /* weekend */
     .week:not(.start-on-monday) .day:first-child,
     .week:not(.start-on-monday) .day:last-child {
-      color: orange;
+      color: #12141E;
     }
 
     /* sunday */
     .week:not(.start-on-monday) .day:first-child {
-      color: red;
+      color: #12141E;
     }
 
     /* start on monday - weekend */
@@ -273,22 +293,15 @@
     }
 
     .day.today span::after {
-      content: "";
-      position: absolute;
-      bottom: 3px;
-      left: 50%;
-      transform: translateX(-50%);
-      border-bottom: 3px solid #F8B400;
-      width: 15px;
-      height: 1px;
+      display: none;
     }
 
     .day.sunday span {
-      color: #ff8a80;
+      color: #12141E;
     }
 
     .week .day.highlight span {
-      color: #2196f3;
+      color: #12141E;
     }
 
     .week .day.selected span {

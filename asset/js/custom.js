@@ -68,6 +68,8 @@ $(document).ready(function () {
         onClickDate: selectDate,
         showYearDropdown: true,
         showTodayButton:false,
+
+
     });
 
 
